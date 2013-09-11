@@ -7,9 +7,23 @@
 
 //publish page
 
+function test(){
+ var networkState = navigator.connection.type;
+
+            var states = {};
+           
+            states[Connection.NONE]     = 'No network connection';
+//alert(networkState);
+if (states[networkState] == 'No network connection'){
+    alert("Please check your network connection.")
+} else {
+            publishPage();
+          }
+}
+
 function publishPage()
 {
-alert("publishPage");
+//alert("publishPage");
  FB.login(function(response) {
    // handle the response
    FB.api('/187230568116003/feed','POST',
