@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Rws</title>
+		<meta name="description" content="test" />
+		<meta name="author" content="S9ren" />
+ <link rel="stylesheet" type="text/css" href="themes/bluewhale.css">
+<link rel="stylesheet" href="css/jqm.css" />
+</head>
+<body>
+
+
+<div data-role="page"   class="ui-responsive-panel" data-theme="a">
+			<div data-role="header"  >
+				<h1 data-theme="b" style="font-size: 23px;">Chinese Multicusine resturant</h1>
+				<a href="#nav-panel" data-icon="bars" data-iconpos="notext" data-theme="b">Menu</a>
+			</div><!-- /header -->
+			<div data-role="content">
+				<h2>About the resturant app</h2>
+
+				<div class="ui-grid-a" style="line-height:2">
+<div class="ui-block-a"><strong>Name</strong></div>
+<div class="ui-block-b">Resturant name</div>
+<div class="ui-block-a"><strong>Location</strong></div>
+<div class="ui-block-b">Resturant name</div>
+<div class="ui-block-a"><strong>Name</strong></div>
+<div class="ui-block-b">Resturant name</div>
+
+</div>
+<p>
+Hi Hiton Hotel welcomes you.
+Share our feedback and pictures on out FB page.
+Thanks for visiting our Hotel
+
+</p>
+
+				<div class="picture_button">
+				<a href="pic_comment.html" id="TakePicture"data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b" data-inline="true">Take picture</a>
+				</div>
+			</div><!-- /content -->
+
+			
+			
+			
+			
+
+				<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" id="nav-panel" data-theme="a">
+				
+
+					<ul data-role="listview" data-theme="b" data-divider-theme="a" style="margin-top:-16px;" class="nav-search">
+						
+						<li >
+							<a href="index.html">About Us</a>
+						</li>
+						<li >
+							<a href="#">Help</a>
+						</li>
+					</ul>
+
+					<!-- panel content goes here -->
+				</div><!-- /panel -->
+
+				
+				
+		</div><!-- /page -->
+
+
+<script src="js/jquery.js"></script>
+<script src="js/jqm.js"></script>
+<script>
+$(document).ready(function(){
+
+});
+
+</script>
+
+
+<style>
+.picture_button {
+text-align: center;
+}
+.ui-panel-content-wrap{
+background-image: url(images/egg_shell.png);
+}
+.picture_button .ui-icon, .ui-icon-searchfield:after {
+    background: url(https://cdn3.iconfinder.com/data/icons/stroke/53/Camera-24.png) 50% 50% no-repeat;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.picture_button .ui-btn-inner {
+font-size: 25px;
+}
+.picture_button .ui-btn-text {
+padding-right: 16px;
+}
+</style>
+</body>
+</html>
